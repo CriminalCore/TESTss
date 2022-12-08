@@ -1,0 +1,287 @@
+
+
+local Untitled = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TaskbarExit = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local DropShadowHolder = Instance.new("Frame")
+local DropShadow = Instance.new("ImageLabel")
+local DropShadow_2 = Instance.new("ImageLabel")
+local Exit = Instance.new("ImageButton")
+local UICorner_3 = Instance.new("UICorner")
+local MainTaskbar = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local DropShadowHolder_2 = Instance.new("Frame")
+local DropShadow_3 = Instance.new("ImageLabel")
+local Profileinfotaskbar = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local DropShadowHolder_3 = Instance.new("Frame")
+local DropShadow_4 = Instance.new("ImageLabel")
+local PlayerImage = Instance.new("ImageLabel")
+local UICorner_6 = Instance.new("UICorner")
+local DropShadowHolder_4 = Instance.new("Frame")
+local DropShadow_5 = Instance.new("ImageLabel")
+
+--Properties:
+
+Untitled.Name = "Untitled"
+Untitled.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Untitled.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = Untitled
+Main.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Main.BackgroundTransparency = 0.100
+Main.Position = UDim2.new(0.21831651, 0, 0.199940756, 0)
+Main.Size = UDim2.new(0, 715, 0, 405)
+
+UICorner.CornerRadius = UDim.new(0.00999999978, 9)
+UICorner.Parent = Main
+
+TaskbarExit.Name = "TaskbarExit"
+TaskbarExit.Parent = Main
+TaskbarExit.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TaskbarExit.BackgroundTransparency = 0.200
+TaskbarExit.Position = UDim2.new(0.809790194, 0, 0.837037027, 0)
+TaskbarExit.Size = UDim2.new(0, 66, 0, 49)
+
+UICorner_2.CornerRadius = UDim.new(0.00999999978, 9)
+UICorner_2.Parent = TaskbarExit
+
+DropShadowHolder.Name = "DropShadowHolder"
+DropShadowHolder.Parent = TaskbarExit
+DropShadowHolder.BackgroundTransparency = 1.000
+DropShadowHolder.BorderSizePixel = 0
+DropShadowHolder.Size = UDim2.new(1, 0, 1, 0)
+DropShadowHolder.ZIndex = 0
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = DropShadowHolder
+DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow.Size = UDim2.new(1, 47, 1, 47)
+DropShadow.ZIndex = 0
+DropShadow.Image = "rbxassetid://6014261993"
+DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow.ImageTransparency = 0.500
+DropShadow.ScaleType = Enum.ScaleType.Slice
+DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+DropShadow_2.Name = "DropShadow"
+DropShadow_2.Parent = Main
+DropShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow_2.BackgroundTransparency = 1.000
+DropShadow_2.BorderSizePixel = 0
+DropShadow_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow_2.Size = UDim2.new(1, 47, 1, 47)
+DropShadow_2.ZIndex = 0
+DropShadow_2.Image = "rbxassetid://6015897843"
+DropShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow_2.ImageTransparency = 0.500
+DropShadow_2.ScaleType = Enum.ScaleType.Slice
+DropShadow_2.SliceCenter = Rect.new(49, 49, 450, 450)
+
+Exit.Name = "Exit"
+Exit.Parent = Main
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.BackgroundTransparency = 1.000
+Exit.Position = UDim2.new(0.828519285, 0, 0.847064734, 0)
+Exit.Size = UDim2.new(0, 40, 0, 40)
+Exit.Image = "rbxassetid://7734042493"
+
+UICorner_3.CornerRadius = UDim.new(0.00999999978, 9)
+UICorner_3.Parent = Exit
+
+MainTaskbar.Name = "MainTaskbar"
+MainTaskbar.Parent = Main
+MainTaskbar.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+MainTaskbar.BackgroundTransparency = 0.200
+MainTaskbar.Position = UDim2.new(0.0979020521, 0, 0.837037027, 0)
+MainTaskbar.Size = UDim2.new(0, 495, 0, 49)
+
+UICorner_4.CornerRadius = UDim.new(0.00999999978, 9)
+UICorner_4.Parent = MainTaskbar
+
+DropShadowHolder_2.Name = "DropShadowHolder"
+DropShadowHolder_2.Parent = MainTaskbar
+DropShadowHolder_2.BackgroundTransparency = 1.000
+DropShadowHolder_2.BorderSizePixel = 0
+DropShadowHolder_2.Size = UDim2.new(1, 0, 1, 0)
+DropShadowHolder_2.ZIndex = 0
+
+DropShadow_3.Name = "DropShadow"
+DropShadow_3.Parent = DropShadowHolder_2
+DropShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow_3.BackgroundTransparency = 1.000
+DropShadow_3.BorderSizePixel = 0
+DropShadow_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow_3.Size = UDim2.new(1, 47, 1, 47)
+DropShadow_3.ZIndex = 0
+DropShadow_3.Image = "rbxassetid://6014261993"
+DropShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow_3.ImageTransparency = 0.500
+DropShadow_3.ScaleType = Enum.ScaleType.Slice
+DropShadow_3.SliceCenter = Rect.new(49, 49, 450, 450)
+
+Profileinfotaskbar.Name = "Profileinfotaskbar"
+Profileinfotaskbar.Parent = Main
+Profileinfotaskbar.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+Profileinfotaskbar.BackgroundTransparency = 0.200
+Profileinfotaskbar.Position = UDim2.new(0.0979020521, 0, 0.834567904, 0)
+Profileinfotaskbar.Size = UDim2.new(0, 66, 0, 49)
+
+UICorner_5.CornerRadius = UDim.new(0.00999999978, 9)
+UICorner_5.Parent = Profileinfotaskbar
+
+DropShadowHolder_3.Name = "DropShadowHolder"
+DropShadowHolder_3.Parent = Profileinfotaskbar
+DropShadowHolder_3.BackgroundTransparency = 1.000
+DropShadowHolder_3.BorderSizePixel = 0
+DropShadowHolder_3.Size = UDim2.new(1, 0, 1, 0)
+DropShadowHolder_3.ZIndex = 0
+
+DropShadow_4.Name = "DropShadow"
+DropShadow_4.Parent = DropShadowHolder_3
+DropShadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow_4.BackgroundTransparency = 1.000
+DropShadow_4.BorderSizePixel = 0
+DropShadow_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow_4.Size = UDim2.new(1, 47, 1, 47)
+DropShadow_4.ZIndex = 0
+DropShadow_4.Image = "rbxassetid://6014261993"
+DropShadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow_4.ImageTransparency = 0.500
+DropShadow_4.ScaleType = Enum.ScaleType.Slice
+DropShadow_4.SliceCenter = Rect.new(49, 49, 450, 450)
+
+PlayerImage.Name = "PlayerImage"
+PlayerImage.Parent = Profileinfotaskbar
+PlayerImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerImage.Position = UDim2.new(0.227273464, 0, 0.163265228, 0)
+PlayerImage.Size = UDim2.new(0, 35, 0, 35)
+PlayerImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_6.CornerRadius = UDim.new(1, 8)
+UICorner_6.Parent = PlayerImage
+
+DropShadowHolder_4.Name = "DropShadowHolder"
+DropShadowHolder_4.Parent = PlayerImage
+DropShadowHolder_4.BackgroundTransparency = 1.000
+DropShadowHolder_4.BorderSizePixel = 0
+DropShadowHolder_4.Size = UDim2.new(1, 0, 1, 0)
+DropShadowHolder_4.ZIndex = 0
+
+DropShadow_5.Name = "DropShadow"
+DropShadow_5.Parent = DropShadowHolder_4
+DropShadow_5.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow_5.BackgroundTransparency = 1.000
+DropShadow_5.BorderSizePixel = 0
+DropShadow_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow_5.Size = UDim2.new(1, 47, 1, 47)
+DropShadow_5.ZIndex = 0
+DropShadow_5.Image = "rbxassetid://6014261993"
+DropShadow_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow_5.ImageTransparency = 0.500
+DropShadow_5.ScaleType = Enum.ScaleType.Slice
+DropShadow_5.SliceCenter = Rect.new(49, 49, 450, 450)
+
+-- Scripts:
+
+local function GGZZVO_fake_script() -- Exit.script 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(GGZZVO_fake_script)()
+local function LELVKC_fake_script() -- Profileinfotaskbar.LocalScript 
+	local script = Instance.new('LocalScript', Profileinfotaskbar)
+
+	local frame = script.Parent
+	
+	
+	
+	local player = game.Players.LocalPlayer
+	
+	
+	
+	local userId = player.UserId
+	
+	local thumbType = Enum.ThumbnailType.HeadShot
+	
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	
+	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	
+	
+	
+	
+	frame.PlayerImage.Image = content
+	
+	frame.PlayerName.Text = player.Name
+end
+coroutine.wrap(LELVKC_fake_script)()
+local function HDLGCUD_fake_script() -- Main.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', Main)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(HDLGCUD_fake_script)()
